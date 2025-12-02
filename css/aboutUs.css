@@ -1,21 +1,29 @@
 body {
+font-family: Arial, Helvetica, sans-serif;
     background-color: #F5EFE5;
-    text-align: center;
+    background-image: url("/images/logoAgency.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
-
-
+h1{
+    text-align: center;
+    color: #6A0F1A;
+    
+}
 
 .listWorks {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     padding: 20px;
 }
 
 .listWorks ul {
-    list-style: none;          
+    list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 600px;          
+    max-width: 600px;
     width: 100%;
 }
 
@@ -39,15 +47,15 @@ body {
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     background-color: #f1f0ef;
-    position: relative;   
+    position: relative;
 }
 
 
 .listWorks ul {
-    list-style: none;          
+    list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 600px;          
+    max-width: 600px;
     width: 100%;
 }
 
@@ -55,11 +63,6 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 1.1rem;
-}
-
-
-.card:hover {
-    transform: translateY(-5px);
 }
 
 .card img {
@@ -76,14 +79,14 @@ body {
 
 .cardContent {
     position: absolute;
-    bottom: 0;                  
-    left: 50%;                   
+    bottom: 0;
+    left: 50%;
     transform: translateX(-50%);
     width: 100%;
     color: #B6B5B2;
     padding: 15px;
     text-align: center;
-    background: #3F4826; 
+    background: #3F4826;
 }
 
 
@@ -93,5 +96,32 @@ body {
 
 .cardContent p {
     font-size: 14px;
-    color: #F5EFE5;
+    color: #B6B5B2;
+}
+
+.textHistory{
+    background-color: #3F4826;
+    border: 2px solid #6A0F1A; 
+    padding: 20px; 
+    margin: 50px auto; 
+    width: 60%; 
+    max-width: 500px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px #B6B5B2; 
+
+
+    color: #B6B5B2; 
+    line-height: 1.5;
+} 
+.textT{
+    background-color: #3F4826; 
+    border: 2px solid #6A0F1A; 
+    padding: 20px; 
+    margin: 50px auto; 
+    width: 60%; 
+    max-width: 500px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color: #B6B5B2; 
+    line-height: 1.5; 
 }
