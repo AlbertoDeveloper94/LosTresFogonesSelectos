@@ -1,3 +1,25 @@
+body {
+    background-color: #6A0F1A;
+    text-align: center;
+}
+
+
+.listWorks {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.cardPhotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
 .card {
     width: 300px;
     border-radius: 15px;
@@ -14,11 +36,19 @@
 
 .card img {
     width: 100%;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
+    position: relative;
+}
+
+.imgjavier {
+    width: 100px;
+    height: 50px;
 }
 
 .cardContent {
+    position: absolute;
+    color: #fff;
     padding: 15px;
     text-align: center;
 }
@@ -29,15 +59,5 @@
 
 .cardContent p {
     font-size: 14px;
-    color: #555;
-}
-
-.cardContent button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    border: none;
-    background-color: #000;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
+    color: #F5EFE5;
 }
