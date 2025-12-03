@@ -113,3 +113,18 @@ body {
         max-width: 450px;
     }
 }
+.footer a{
+    color: #F5EFE5;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #C5A467;
+}
+.footer .icons a img {
+    filter: brightness(100%);
+    transition: filter 0.3s;
+}
+.footer .icons a:hover img{
+    filter: invert(75%) sepia(25%) saturate(5000%) hue-rotate(30deg) brightness(95%);
+}
