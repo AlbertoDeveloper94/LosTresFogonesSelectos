@@ -128,3 +128,6 @@ body {
 .footer .icons a:hover img{
     filter: invert(75%) sepia(25%) saturate(5000%) hue-rotate(30deg) brightness(95%);
 }
+.Copyright{
+    font-size: 10px;
+}
