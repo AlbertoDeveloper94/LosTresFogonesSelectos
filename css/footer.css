@@ -15,6 +15,7 @@ body {
     background-color: #6A0F1A;
     padding: 1rem;
     color: #F5EFE5;
+    font-family: lato, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +44,7 @@ body {
     line-height: 1.2;
 }
 .logofooter{
-    max-width: 75%;
+    max-width: 60%;
     align-items: center;
     background-color: #F5EFE5;
     border-radius: 50%;
