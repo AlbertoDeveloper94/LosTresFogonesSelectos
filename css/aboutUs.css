@@ -17,12 +17,15 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 .titleBig{
-    color: #6A0F1A;
+    color: #E42E43;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5vw; 
     text-align: center; 
     width: 100%; 
     padding: 20px;
+    background-color: #3F4826;
+    display: inline-block;
+
 }
 
 .listWorks {
