@@ -2,7 +2,7 @@ const requestURL = "json/index.json";
 
 function createHighlightProductCard({ src, alt, title, price, button }) {
   return `
-        <figure class="productNew" data-type="vinos">
+        <figure class="productNew">
               <div class="scaleProduct">
                 <img
                   src=${src}
@@ -17,7 +17,6 @@ function createHighlightProductCard({ src, alt, title, price, button }) {
         </figure>
     `;
 }
-
 
 async function fetchHousesJson() {
   try {
@@ -37,14 +36,16 @@ async function displayProducts() {
   const offersContainer = document.getElementById("offersContainer");
   const productsData = await fetchHousesJson();
   if (productsData) {
-    const productCardsHighlight = productsData.highlightProducts.map(createHighlightProductCard).join("");
-   highlightContainer.innerHTML = productCardsHighlight;
-   const productCardOffers = productsData.offerProducts.map(createHighlightProductCard).join("");
-   offersContainer.innerHTML = productCardOffers;
-   
-  } 
-  else{
-    highlightContainer.innerHTML="<p>Contenido no encontrado</p>"
+    const productCardsHighlight = productsData.highlightProducts
+      .map(createHighlightProductCard)
+      .join("");
+    highlightContainer.innerHTML = productCardsHighlight;
+    const productCardOffers = productsData.offerProducts
+      .map(createHighlightProductCard)
+      .join("");
+    offersContainer.innerHTML = productCardOffers;
+  } else {
+    highlightContainer.innerHTML = "<p>Contenido no encontrado</p>";
   }
 }
 

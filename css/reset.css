@@ -9,7 +9,7 @@ a {
 }
 img {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   max-width: 100%;
 }
 button {
