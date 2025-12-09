@@ -1,0 +1,46 @@
+{
+    "wine": [
+        {
+            "id": 1,
+            "image": "../images/vinos/Vinos Gallegos/marDeFradesFincaLobeira.png",
+            "wine": "Mar de Frades Finca Lobeira",
+            "price": "34,50",
+            "denomination": "Rías Baixas",
+            "description": "Vino blanco Mar de Frades Finca Lobeira 2019 Rías Baixas."
+        },
+        {
+            "id": 2,
+            "image": "../images/vinos/Vinos Gallegos/froreDeCarme.png",
+            "wine": "Frore de Carme",
+            "price": "82",
+            "denomination": "Rías Baixas",
+            "description": "Vino blanco Frore de Carme Pezium albariño 2018 Rías Baixas."
+        },
+        {
+            "id": 3,
+            "image": "../images/vinos/Vinos Gallegos/oLuarDoSil.png",
+            "wine": "O Luar Do Sil",
+            "price": "30,25",
+            "denomination": "DO Valdeorras - Seadur - Larouco - Orense",
+            "description": "Godello Magnum.Un vino blanco grande con una espléndida evolución en botella. 100 % Godello."
+        },
+        {
+            "id": 5,
+            "image": "../images/vinos/Vinos Gallegos/viñaMeinTinto.png",
+            "wine": "Viña Meín Tinto",
+            "price": "38",
+            "denomination": "DO Ribeiro - Leiro - Ourense",
+            "description": "Vino tinto Viña Meín 2021 Ribeiro."
+        },
+        {
+            "id": 6,
+            "image": "../images/vinos/Vinos Gallegos/viñaMeín.png",
+            "wine": "Viña Meín",
+            "price": "25,95",
+            "denomination": "DO Ribeiro - Leiro - Ourense",
+            "description": "Vino blanco Viña Meín 2022 Ribeiro."
+        }
+
+    ]
+
+}
