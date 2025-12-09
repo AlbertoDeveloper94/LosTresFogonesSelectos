@@ -94,6 +94,43 @@ header {
   padding: 15px 30px;
   border-radius: 15px;
 }
-.bannerContent a:hover{
-    background-color: #e4384c;
+.bannerContent a:hover {
+  background-color: #e4384c;
+}
+.gridProducts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+  margin: auto;
+  width: 90%;
+}
+.gridProducts figure {
+  background-color: rgb(148, 109, 36);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.scaleProduct {
+  overflow: hidden;
+}
+.gridProducts figure img {
+  border-radius: 20px 20px 0 0;
+  transition: transform 1s;
+}
+
+.gridProducts img:hover {
+  transform: scale(1.2);
+}
+
+.productInfo {
+  padding: 10px;
+}
+.productInfo > * {
+  margin: 8px 0;
+}
+.productInfo a {
+  display: inline-block;
+  background-color: var(--buttonSecondary);
+  padding: 5px 10px;
+  border-radius: 20px;
 }
