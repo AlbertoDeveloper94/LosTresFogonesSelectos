@@ -17,9 +17,11 @@ h1{
 
 }
 
-main {background-image: url(/image/logoAgency.png);
+main {
+    
+    background-image: url(/image/logoAgency.png);
     background-size: contain;
-    min-height: 100vh;          
+    height: 100vh;          
     display: flex;
     justify-content: center;   
     align-items: center;        ;
