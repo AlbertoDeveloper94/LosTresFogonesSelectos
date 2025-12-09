@@ -5,7 +5,7 @@
             "image": "../images/vinos/Vinos Gallegos/marDeFradesFincaLobeira.png",
             "wine": "Mar de Frades Finca Lobeira",
             "price": "34,50",
-            "denomination": "Rías Baixas",
+            "denomination": "DO Rías Baixas",
             "description": "Vino blanco Mar de Frades Finca Lobeira 2019 Rías Baixas."
         },
         {
@@ -13,7 +13,7 @@
             "image": "../images/vinos/Vinos Gallegos/froreDeCarme.png",
             "wine": "Frore de Carme",
             "price": "82",
-            "denomination": "Rías Baixas",
+            "denomination": "DO Rías Baixas",
             "description": "Vino blanco Frore de Carme Pezium albariño 2018 Rías Baixas."
         },
         {
@@ -39,6 +39,54 @@
             "price": "25,95",
             "denomination": "DO Ribeiro - Leiro - Ourense",
             "description": "Vino blanco Viña Meín 2022 Ribeiro."
+        },
+        {
+            "id": 7,
+            "image": "../images/vinos/Vinos Gallegos/viñaMeín.png",
+            "wine": "Laudes",
+            "price": "28",
+            "denomination": "DO Ribeiro - Leiro - Ourense",
+            "description": "Vino blanco Laudes 2023 Ribeiro."
+        },
+        {
+            "id": 8,
+            "image": "../images/vinos/Vinos Gallegos/marDeFradesFincaLMonteveiga.png",
+            "wine": "Mar de Frades Finca Monteveiga",
+            "price": "40,50",
+            "denomination": "DO Rías Baixas",
+            "description": "Vino blanco Mar de Frades Finca Monteveiga albariño 2020 Rías Baixas."
+        },
+        {
+            "id": 9,
+            "image": "../images/vinos/Vinos Gallegos/caprichoSousón.png",
+            "wine": "Capricho de Sousón",
+            "price": "25",
+            "denomination": "DO Ribeira Sacra",
+            "description": "Vino tinto Capricho de Sousón Ribeira Sacra."
+        },
+        {
+            "id": 10,
+            "image": "../images/vinos/Vinos Gallegos/attisSousón.png",
+            "wine": "Attis Sousón",
+            "price": "31,20",
+            "denomination": "DO Rías Baixas",
+            "description": "Vino tinto Attis Sousón 2019 Rías Baixas."
+        },
+        {
+            "id": 11,
+            "image": "../images/vinos/Vinos Gallegos/portoDeLobos.png",
+            "wine": "Porto de Lobos",
+            "price": "29,50",
+            "denomination": "DO Ribeira Sacra",
+            "description": "Vino tinto Porto de Lobos 2016 Ribeira Sacra."
+        },
+        {
+            "id": 12,
+            "image": "../images/vinos/Vinos Gallegos/viñaMeín.png",
+            "wine": "Lacima",
+            "price": "46,90",
+            "denomination": "DO Ribeira Sacra",
+            "description": "Vino tinto Lacima 2019 Ribeira Sacra."
         }
 
     ]
