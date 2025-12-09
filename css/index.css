@@ -1,0 +1,30 @@
+:root {
+  --colorTitles: #89343e;
+  --backgroundPrimary: #f5efe5;
+
+  --buttonSecondary: #b6d461;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: var(--backgroundPrimary);
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: 1px;
+}
+h1 {
+  color: #e4384c;
+  font-size: 2.5rem;
+}
+h2,
+h3 {
+  color: var(--colorTitles);
+}
+section {
+  margin-top: 30px;
+}
