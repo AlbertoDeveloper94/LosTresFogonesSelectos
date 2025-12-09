@@ -1,0 +1,71 @@
+
+  {
+    "highlightProducts": [
+      {
+        "src": "images/whiteWineClaire.jpg",
+        "alt": "Imagen de una botella de vino blanco con marca Claire.",
+        "title": "Vino blanco Claire",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/whiteWineEtoile.jpg",
+        "alt": "Imagen de una botella de vino blanco con marca Etoile.",
+        "title": "Vino blanco Etoile",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/whiteWineSolstice.jpg",
+        "alt": "Imagen de una botella de vino blanco con marca Solstice.",
+        "title": "Vino blanco Solstice",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/redWineAurora.jpg",
+        "alt": "Imagen de una botella de vino tinto con marca Aurora.",
+        "title": "Vino blanco Aurora",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/redWineMedianoche.jpg",
+        "alt": "Imagen de una botella de vino tinto con marca Medianoche.",
+        "title": "Vino tinto Medianoche",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/roxanneCaviar.jpg",
+        "alt": "Imagen de una lata de conservas de caviar.",
+        "title": "Conservas Caviar",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      }
+    ],
+   
+    "offerProducts": [
+      {
+        "src": "images/whiteWineClaire.jpg",
+        "alt": "Imagen de una botella de vino blanco con marca Claire.",
+        "title": "Vino blanco Claire",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/whiteWineEtoile.jpg",
+        "alt": "Imagen de una botella de vino blanco con marca Etoile.",
+        "title": "Vino blanco Etoile",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      },
+      {
+        "src": "images/whiteWineSolstice.jpg",
+        "alt": "Imagen de una botella de vino blanco con marca Solstice.",
+        "title": "Vino blanco Solstice",
+        "price": "52,33€",
+        "button": "Añadir al carrito"
+      }
+    ]
+  }

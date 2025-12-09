@@ -25,8 +25,9 @@ h2,
 h3 {
   color: var(--colorTitles);
 }
-section {
-  margin-top: 30px;
+
+section h2 {
+  margin: 30px;
 }
 .wraperHeaderBanner {
   display: flex;
@@ -103,9 +104,11 @@ header {
   gap: 50px;
   margin: auto;
   width: 90%;
+  background-color: var(--colorTitles);
+  padding: 40px;
+  border-radius: 20px;
 }
 .gridProducts figure {
-  background-color: rgb(148, 109, 36);
   border-radius: 20px;
   overflow: hidden;
   text-align: center;
@@ -123,6 +126,7 @@ header {
 }
 
 .productInfo {
+  background-color: wheat;
   padding: 10px;
 }
 .productInfo > * {
@@ -133,4 +137,48 @@ header {
   background-color: var(--buttonSecondary);
   padding: 5px 10px;
   border-radius: 20px;
+}
+.carruselOpinions {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.carruselOpinions button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#previousButton {
+  left: 0;
+  background-image: url("../images/previousButtonCarrousel.png");
+  background-size: cover;
+}
+#nextButton {
+  right: 0;
+  background-image: url("../images/nextButtonCarrousel.png");
+  background-size: cover;
+}
+.slidesOpinions {
+  display: flex;
+}
+.opinion {
+  min-width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.opinion > * {
+  margin: 15px 0;
+}
+
+.opinion img {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: var(--colorTitles);
 }
