@@ -1,0 +1,48 @@
+{
+    "cannedFood": [
+        {
+            "image": "../images/Conservas/sardinillasJosePeña.png",
+            "cannedFood": "Sardinillas en aceite de oliva José Peña",
+            "price": "16,90",
+            "denomination": "Puebla del Caramiñal - La Coruña",
+            "description": "Sardinillas en aceite de oliva 30/35 piezas Edición Especial José Peña."
+        },
+        {
+            "image": "../images/Conservas/sardinillasJosePeña.png",
+            "cannedFood": "Sardinillas en aceite de oliva José Peña",
+            "price": "16,90",
+            "denomination": "Puebla del Caramiñal - La Coruña",
+            "description": "Sardinillas en aceite de oliva 30/35 piezas Edición Especial José Peña."
+        },
+        {
+            "image": "../images/Conservas/sardinillasJosePeña.png",
+            "cannedFood": "Sardinillas en aceite de oliva José Peña",
+            "price": "16,90",
+            "denomination": "Puebla del Caramiñal - La Coruña",
+            "description": "Sardinillas en aceite de oliva 30/35 piezas Edición Especial José Peña."
+        },
+        {
+            "image": "../images/Conservas/sardinillasJosePeña.png",
+            "cannedFood": "Sardinillas en aceite de oliva José Peña",
+            "price": "16,90",
+            "denomination": "Puebla del Caramiñal - La Coruña",
+            "description": "Sardinillas en aceite de oliva 30/35 piezas Edición Especial José Peña."
+        },
+        {
+            "image": "../images/Conservas/sardinillasJosePeña.png",
+            "cannedFood": "Sardinillas en aceite de oliva José Peña",
+            "price": "16,90",
+            "denomination": "Puebla del Caramiñal - La Coruña",
+            "description": "Sardinillas en aceite de oliva 30/35 piezas Edición Especial José Peña."
+        },
+        {
+            "image": "../images/Conservas/sardinillasJosePeña.png",
+            "cannedFood": "Sardinillas en aceite de oliva José Peña",
+            "price": "16,90",
+            "denomination": "Puebla del Caramiñal - La Coruña",
+            "description": "Sardinillas en aceite de oliva 30/35 piezas Edición Especial José Peña."
+        }
+        
+    ]
+
+}
