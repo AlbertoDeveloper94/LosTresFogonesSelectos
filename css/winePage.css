@@ -37,8 +37,13 @@ padding: 40px 20px;
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 2rem;
-    color:#F5EFE5 ;
+    color: #6A0F1A;
     z-index: 10;
+    display: inline-block;
+    background:rgba(231, 222, 215, 0.7);
+    padding: 10px 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
 }
 .cards-row {
     display: flex;
