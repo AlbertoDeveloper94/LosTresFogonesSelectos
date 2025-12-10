@@ -1,6 +1,7 @@
 # Los Tres Fogones Selectos
 
 **Los Tres Fogones Selectos** es un proyecto que consiste en la creación de una página web para vender **productos gourmet**, haciendo posible nuestro sueño de ofrecer productos de alta calidad a los usuarios de manera sencilla e intuitiva.
+## screenshot ##
 
 ## Tecnologías utilizadas
 
@@ -38,4 +39,6 @@ cd los-tres-fogones-selectos
 
 La página es **intuitiva y fácil de usar**, con un menú sencillo (en móviles incluye un menú hamburguesa).  
 Los productos son fáciles de identificar gracias a sus imágenes, y sus características y precios están claramente visibles.
+
+## Presentacion ##
 
