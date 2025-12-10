@@ -1,3 +1,45 @@
+const carrousel = document.querySelector("#slidesOpinions");
+const totalImages = document.querySelectorAll(".opinion");
+const previousButton = document.querySelector("#previousButton");
+const nextButton = document.querySelector("#nextButton");
+let currentIndex = 0;
+let offset = 0;
+let interval = setInterval(AutoSlide, 3000);
+
+previousButton.addEventListener("click", function () {
+  currentIndex--;
+  controlSlide();
+  ResetAutoSlide();
+});
+nextButton.addEventListener("click", function () {
+  currentIndex++;
+  controlSlide();
+  ResetAutoSlide();
+});
+
+function controlSlide() {
+  if (currentIndex < 0) {
+    currentIndex = totalImages.length - 1;
+    carrousel.style.transition = "none";
+  } else if (currentIndex > totalImages.length - 1) {
+    currentIndex = 0;
+    carrousel.style.transition = "none";
+  } else {
+    carrousel.style.transition = "transform 1s";
+  }
+  offset = -currentIndex * 100;
+  carrousel.style.transform = `translateX(${offset}%)`;
+}
+
+function AutoSlide() {
+  currentIndex++;
+  controlSlide();
+}
+function ResetAutoSlide() {
+  clearInterval(interval);
+  interval = setInterval(AutoSlide, 3000);
+}
+
 const requestURL = "json/index.json";
 
 function createHighlightProductCard({ src, alt, title, price, button }) {
