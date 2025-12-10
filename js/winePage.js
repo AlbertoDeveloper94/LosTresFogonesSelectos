@@ -1,11 +1,11 @@
 const requestURL = '../json/winePage.json';
 
-function createWineCard({ id, image, wine, price, denomination, description }) {
+function createWineCard({image, wine, price, denomination, description }) {
     return `
         <div class="card" style="width: 18rem;">
             <img src="${image}" class="card-img-top" alt="Imagen del vino">
             <div class="card-body">
-                <h5 class="card-title">${id}. ${wine} - ${price}€</h5>
+                <h5 class="card-title">${wine} - ${price}€</h5>
                 <p class="card-text">${denomination} — ${description}</p>
             </div>
         </div>

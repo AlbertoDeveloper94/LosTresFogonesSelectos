@@ -1,7 +1,6 @@
 {
     "wine": [
         {
-            "id": 1,
             "image": "../images/vinos/Vinos Gallegos/marDeFradesFincaLobeira.png",
             "wine": "Mar de Frades Finca Lobeira",
             "price": "34,50",
@@ -9,7 +8,6 @@
             "description": "Vino blanco Mar de Frades Finca Lobeira 2019 Rías Baixas."
         },
         {
-            "id": 2,
             "image": "../images/vinos/Vinos Gallegos/froreDeCarme.png",
             "wine": "Frore de Carme",
             "price": "82",
@@ -17,7 +15,6 @@
             "description": "Vino blanco Frore de Carme Pezium albariño 2018 Rías Baixas."
         },
         {
-            "id": 3,
             "image": "../images/vinos/Vinos Gallegos/oLuarDoSil.png",
             "wine": "O Luar Do Sil",
             "price": "30,25",
@@ -25,7 +22,6 @@
             "description": "Godello Magnum.Un vino blanco grande con una espléndida evolución en botella. 100 % Godello."
         },
         {
-            "id": 5,
             "image": "../images/vinos/Vinos Gallegos/viñaMeinTinto.png",
             "wine": "Viña Meín Tinto",
             "price": "38",
@@ -33,7 +29,6 @@
             "description": "Vino tinto Viña Meín 2021 Ribeiro."
         },
         {
-            "id": 6,
             "image": "../images/vinos/Vinos Gallegos/viñaMeín.png",
             "wine": "Viña Meín",
             "price": "25,95",
@@ -41,7 +36,6 @@
             "description": "Vino blanco Viña Meín 2022 Ribeiro."
         },
         {
-            "id": 7,
             "image": "../images/vinos/Vinos Gallegos/viñaMeín.png",
             "wine": "Laudes",
             "price": "28",
@@ -49,7 +43,6 @@
             "description": "Vino blanco Laudes 2023 Ribeiro."
         },
         {
-            "id": 8,
             "image": "../images/vinos/Vinos Gallegos/marDeFradesFincaLMonteveiga.png",
             "wine": "Mar de Frades Finca Monteveiga",
             "price": "40,50",
@@ -57,7 +50,6 @@
             "description": "Vino blanco Mar de Frades Finca Monteveiga albariño 2020 Rías Baixas."
         },
         {
-            "id": 9,
             "image": "../images/vinos/Vinos Gallegos/caprichoSousón.png",
             "wine": "Capricho de Sousón",
             "price": "25",
@@ -65,7 +57,6 @@
             "description": "Vino tinto Capricho de Sousón Ribeira Sacra."
         },
         {
-            "id": 10,
             "image": "../images/vinos/Vinos Gallegos/attisSousón.png",
             "wine": "Attis Sousón",
             "price": "31,20",
@@ -73,7 +64,6 @@
             "description": "Vino tinto Attis Sousón 2019 Rías Baixas."
         },
         {
-            "id": 11,
             "image": "../images/vinos/Vinos Gallegos/portoDeLobos.png",
             "wine": "Porto de Lobos",
             "price": "29,50",
@@ -81,7 +71,6 @@
             "description": "Vino tinto Porto de Lobos 2016 Ribeira Sacra."
         },
         {
-            "id": 12,
             "image": "../images/vinos/Vinos Gallegos/viñaMeín.png",
             "wine": "Lacima",
             "price": "46,90",
