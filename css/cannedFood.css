@@ -45,6 +45,9 @@ padding: 40px 20px;
     padding: 10px 25px;
     backdrop-filter: blur(3px);
 }
+main, .wrapper {
+    text-align: center;
+}
 
 .cards-row {
     display: flex;
