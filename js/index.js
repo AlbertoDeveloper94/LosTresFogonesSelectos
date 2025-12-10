@@ -53,13 +53,38 @@ function createHighlightProductCard({ src, alt, title, price, button }) {
               </div>
               <figcaption class="productInfo">
                 <h3>${title}</h3>
-                <p>${price}</p>
+                <p>
+                  <span>${price}€</span>
+                </p>
                 <a href="">${button}</a>
               </figcaption>
         </figure>
     `;
 }
 
+function createOffersProductCard({ src, alt, title, price, button }) {
+   const priceReplace = price.replace(",", ".");
+  const priceNormal = parseFloat(priceReplace);
+  const discount = Number((priceNormal * 0.30));
+  return `
+        <figure class="productNew">
+              <div class="discount">30%</div>
+              <div class="scaleProduct">
+                <img
+                  src=${src}
+                  alt="${alt}"
+                />
+              </div>
+              <figcaption class="productInfo">
+                <h3>${title}</h3>
+                <p>
+                  <span>${discount.toFixed(2).replace(".",",")}€</span>
+                </p>
+                <a href="">${button}</a>
+              </figcaption>
+        </figure>
+    `;
+}
 async function fetchHousesJson() {
   try {
     const response = await fetch(requestURL);
@@ -77,13 +102,14 @@ async function displayProducts() {
   const highlightContainer = document.getElementById("highlightContainer");
   const offersContainer = document.getElementById("offersContainer");
   const productsData = await fetchHousesJson();
+
   if (productsData) {
     const productCardsHighlight = productsData.highlightProducts
       .map(createHighlightProductCard)
       .join("");
     highlightContainer.innerHTML = productCardsHighlight;
     const productCardOffers = productsData.offerProducts
-      .map(createHighlightProductCard)
+      .map(createOffersProductCard)
       .join("");
     offersContainer.innerHTML = productCardOffers;
   } else {
