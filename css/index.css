@@ -2,6 +2,7 @@
   --colorTitles: #89343e;
   --backgroundPrimary: #f5efe5;
 
+  --buttonPrimary: #e4384c;
   --buttonSecondary: #b6d461;
 }
 html,
@@ -18,8 +19,8 @@ h3 {
   letter-spacing: 1px;
 }
 h1 {
-  color: #e4384c;
-  font-size: 4rem;
+  color: var(--buttonPrimary);
+  font-size: 2.5rem;
 }
 h2,
 h3 {
@@ -37,6 +38,7 @@ section h2 {
 .wrapperPage {
   width: 85%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 header {
   height: 50px;
@@ -60,7 +62,6 @@ header {
   color: white;
   line-height: 1.2;
   position: relative;
-  padding: 30px;
   border-radius: 15px;
 }
 .bannerContent:after {
@@ -87,7 +88,8 @@ header {
   background-color: rgba(255, 255, 255, 0);
 }
 .bannerContent p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 .bannerContent a {
   color: var(--backgroundPrimary);
@@ -96,26 +98,25 @@ header {
   border-radius: 15px;
 }
 .bannerContent a:hover {
-  background-color: #e4384c;
+  background-color: var(--buttonPrimary);
 }
 .gridProducts {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 50px;
+  gap: 20px;
   margin: auto;
   width: 90%;
   background-color: var(--colorTitles);
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
 }
 .gridProducts figure {
   border-radius: 20px;
   overflow: hidden;
   text-align: center;
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
 }
 .scaleProduct {
   overflow: hidden;
@@ -144,17 +145,17 @@ display: flex;
   border-radius: 20px;
 }
 .carruselOpinions {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
 .carruselOpinions button {
   position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 50%;
-  transform: translateY(-50%);
+  width: clamp(30px, 5%, 50px);
+  height: clamp(30px, 5%, 50px);
+  top: 40%;
+  transform: translateY(-40%);
 }
 #previousButton {
   left: 0;
@@ -175,7 +176,7 @@ display: flex;
   padding: 20px;
 }
 .opinion > * {
-  margin: 15px 0;
+  margin-top: 25px;
 }
 
 .opinion img {
@@ -186,4 +187,25 @@ display: flex;
   border-radius: 50%;
   padding: 5px;
   background-color: var(--colorTitles);
+}
+@media (min-width: 768px) {
+  .carruselOpinions {
+    width: 70%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .gridProducts{
+    gap: 50px;
+    padding:50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .carruselOpinions {
+    width: 60%;
+  }
 }
