@@ -48,6 +48,9 @@ footer .col {
     max-width: 100%;
     overflow: hidden;
 }
+.icons{
+    display: flex;
+}
 footer .col p{
     margin: 0.2rem;
     line-height: 1.2;

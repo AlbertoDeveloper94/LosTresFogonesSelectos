@@ -10,10 +10,10 @@ connectedCallback() {
                     <p><b>Dirección</b></p>
                     <p>Calle Real, nº12</p>
                     <p>08003 - Barcelona</p>
-                    <img src="/images/icons8-incoming-call-24.png" alt=""><p>(+34) 923 526 366</p>
+                    <img src="../Images/icons8-incoming-call-24.png" alt=""><p>(+34) 923 526 366</p>
                 </div>
                 <div class="col col-logo">
-                    <img class="logofooter" src="../images/logoLosTresFogonesSelectos.png" alt="Logo Los Tres Fogones Selectos">
+                    <img class="logofooter" src="../Images/logoLosTresFogonesSelectos.png" alt="Logo Los Tres Fogones Selectos">
                     <p class="Copyright">Copyright © 2025. | Todos los derechos reservados. | www.LosTresFogonesSelectos.es</p>
                 </div>
                 <div class="col">

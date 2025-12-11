@@ -1,0 +1,236 @@
+:root {
+  --colorTitles: #89343e;
+  --backgroundPrimary: #f5efe5;
+
+  --buttonPrimary: #e4384c;
+  --buttonSecondary: #b6d461;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: var(--backgroundPrimary);
+  font-family: "Lato", sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+  letter-spacing: 1px;
+}
+h1 {
+  color: var(--buttonPrimary);
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h2,
+h3 {
+  color: var(--colorTitles);
+}
+
+section h2 {
+  margin: 30px;
+}
+.wraperHeaderBanner {
+   height: 100vh;
+   display:flex;
+   flex-direction: column;
+
+}
+.wrapperPage {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.banner {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerContent {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/heroBanner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  line-height: 1.2;
+  position: relative;
+  border-radius: 15px;
+}
+.bannerContent:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.bannerContent > * {
+  z-index: 3;
+  margin: 10px auto;
+  text-align: center;
+}
+.bannerContent > h1,
+.bannerContent p {
+  width: 80%;
+}
+.bannerContent h1 {
+  background-color: rgba(255, 255, 255, 0);
+}
+.bannerContent p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+.bannerContent a {
+  color: var(--backgroundPrimary);
+  background-color: #a73341;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+.bannerContent a:hover {
+  background-color: var(--buttonPrimary);
+}
+.gridProducts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin: auto;
+  width: 90%;
+  background-color: var(--colorTitles);
+  padding: 20px;
+  border-radius: 20px;
+  align-items: stretch;
+}
+.gridProducts figure {
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.discount {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background-color: red;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+}
+.scaleProduct {
+  overflow: hidden;
+}
+.gridProducts figure img {
+  border-radius: 20px 20px 0 0;
+  transition: transform 1s;
+}
+
+.gridProducts img:hover {
+  transform: scale(1.2);
+}
+
+.productInfo {
+ background-color: wheat;
+  padding: 10px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.productInfo > * {
+  margin: 8px 0;
+}
+.productInfo a {
+  display: inline-block;
+  background-color: var(--buttonSecondary);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid;
+}
+.productInfo a:hover {
+  background-color: #d1ff51;
+}
+.carruselOpinions {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.carruselOpinions button {
+  position: absolute;
+  width: clamp(30px, 5%, 50px);
+  height: clamp(30px, 5%, 50px);
+  top: 40%;
+  transform: translateY(-40%);
+}
+#previousButton {
+  left: 0;
+  background-image: url("../images/previousButtonCarrousel.png");
+  background-size: cover;
+}
+#nextButton {
+  right: 0;
+  background-image: url("../images/nextButtonCarrousel.png");
+  background-size: cover;
+}
+.slidesOpinions {
+  display: flex;
+}
+.opinion {
+  min-width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.opinion > * {
+  margin-top: 25px;
+}
+
+.opinion img {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: var(--colorTitles);
+}
+@media (min-width: 768px) {
+  .carruselOpinions {
+    width: 70%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .gridProducts {
+    gap: 50px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .carruselOpinions {
+    width: 60%;
+  }
+}

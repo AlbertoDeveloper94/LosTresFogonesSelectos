@@ -5,17 +5,17 @@ class MyHeader extends HTMLElement {
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary backgroundHeader">
         <div class="container-fluid">
-            <!-- Logo -->.
-            <a class="navbar-brand" href="./../index.html">
+            <!-- Logo -->
+            <a class="navbar-brand" href="./index.html">
             <img
-                src="../images/logoLosTresFogonesSelectos.png"
+                src="./images/logoLosTresFogonesSelectos.png"
                 alt="logo"
                 class="classlogo"
 
             />
             
                 Los tres fogones selectos
-            </a>
+              </a>
 
           <!-- Botón menú móvil -->
           <button
@@ -31,17 +31,17 @@ class MyHeader extends HTMLElement {
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="../pages/cheese.html">QUESOS</a>
+                <a class="nav-link" href="pages/cheese.html">QUESOS</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="../pages/winePage.html">VINOS</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/winePage.html">VINOS</a></li>
                 <li class="nav-item">
-                <a class="nav-link" href="../pages/cannedFood.html">CONSERVAS</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="../pages/aboutUs.html">SOBRE NOSOTROS</a>
+                <a class="nav-link" href="pages/cannedFood.html">CONSERVAS</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="../pages/contacts.html">CONTACTO</a>
+                <a class="nav-link" href="pages/aboutUs.html">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="pages/contacts.html">CONTACTO</a>
             </li>
             </ul>
 

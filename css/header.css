@@ -20,7 +20,7 @@ body {
 .classlogo {
   height: 100px;
   width: auto;
-  background-color:  #B6B5B2;
+  background-color: #b6b5b2;
   border-radius: 50%;
 }
 
@@ -44,7 +44,6 @@ body {
   margin-left: 15px;
   color: white;
 }
-
 
 @media (max-width: 992px) {
   .navbar-brand {
@@ -102,7 +101,6 @@ body {
     height: 32px;
   }
 }
-
 
 .navbar-collapse,
 .navbar-nav,
