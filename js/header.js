@@ -1,18 +1,20 @@
 class MyHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
+
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary backgroundHeader">
         <div class="container-fluid">
-          <!-- Logo -->
-          <a class="navbar-brand" href="#">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
             <img
-              src="../Images/logoLosTresFogonesSelectos.png"
-              alt="logo"
-              class="classlogo"
+                src="../Images/logoLosTresFogonesSelectos.png"
+                alt="logo"
+                class="classlogo"
+
             />
             Los tres fogones selectos
-          </a>
+            </a>
 
           <!-- Botón menú móvil -->
           <button
@@ -22,31 +24,26 @@ class MyHeader extends HTMLElement {
             data-bs-target="#navbarNav"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
+            </button>
 
-          <!-- Menú -->
-          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
-              <li class="nav-item">
+                <li class="nav-item">
                 <a class="nav-link" href="#">QUESOS</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">VINOS</a></li>
-              <li class="nav-item">
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">VINOS</a></li>
+                <li class="nav-item">
                 <a class="nav-link" href="#">CONSERVAS</a>
-              </li>
-              <li class="nav-item">
+                </li>
+                <li class="nav-item">
                 <a class="nav-link" href="#">SOBRE NOSOTROS</a>
-              </li>
-              <li class="nav-item">
+                </li>
+                <li class="nav-item">
                 <a class="nav-link" href="#">CONTACTO</a>
             </li>
             </ul>
 
-            <!-- Carrito -->
-            <a href="#" class="cart-link">
-            <i class="fas fa-shopping-cart"></i>
-            <span class="cart-count">0</span>
-            </a>
         </div>
         </div>
     </nav>
@@ -55,3 +52,4 @@ class MyHeader extends HTMLElement {
     }
 }
 customElements.define("header-los-tres-fogones-selectos", MyHeader);
+

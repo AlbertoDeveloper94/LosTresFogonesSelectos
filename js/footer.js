@@ -27,6 +27,7 @@ connectedCallback() {
                         <a href="https://x.com/?lang=es"><img src="/images/icons8-x-16.png" alt="X" target="_blank"></a>
                     </div>
                 </div>
+                </div>
             </div>
     </footer>
     `;
