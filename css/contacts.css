@@ -19,7 +19,7 @@ h1{
 
 main {
     
-    background-image: url(/images/fondoNavidadFormulary.jpg);
+    background-image: url(../images/fondoNavidadFormulary.jpg);
     background-repeat: no-repeat;
     background-size: cover;         
     display: flex;

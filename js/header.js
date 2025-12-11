@@ -6,7 +6,7 @@ class MyHeader extends HTMLElement {
       <nav class="navbar navbar-expand-lg bg-body-tertiary backgroundHeader">
         <div class="container-fluid">
             <!-- Logo -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.html">
             <img
                 src="../Images/logoLosTresFogonesSelectos.png"
                 alt="logo"
@@ -30,17 +30,17 @@ class MyHeader extends HTMLElement {
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="#">QUESOS</a>
+                <a class="nav-link" href="../pages/cheese.html">QUESOS</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">VINOS</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/winePage.html">VINOS</a></li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">CONSERVAS</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                <a class="nav-link" href="../pages/cannedFood.html">CONSERVAS</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTO</a>
+                <a class="nav-link" href="../pages/aboutUs.html">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../pages/contacts.html">CONTACTO</a>
             </li>
             </ul>
 
@@ -49,7 +49,6 @@ class MyHeader extends HTMLElement {
     </nav>
     </header>
     `;
-    }
+  }
 }
 customElements.define("header-los-tres-fogones-selectos", MyHeader);
-

@@ -21,10 +21,10 @@ connectedCallback() {
                     <a href="/pdf/politicaCookies.pdf" target="_blank"><p>Política de cookies</p></a>
                     <a href="/pdf/politicaPrivacidadDatos.pdf" target="_blank"><p>Política de privacidad</p></a>
                     <div class="icons">
-                        <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="/images/icons8-facebook-nuevo-16.png" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img src="/images/icons8-instagram-16.png" alt="Instagram"></a>
-                        <a href="https://www.tiktok.com/login?lang=es-419&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des" target="_blank"><img src="/images/icons8-tik-tok-16.png" alt="Tiktok"></a>
-                        <a href="https://x.com/?lang=es"><img src="/images/icons8-x-16.png" alt="X" target="_blank"></a>
+                        <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="../images/icons8-facebook-nuevo-16.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="../images/icons8-instagram-16.png" alt="Instagram"></a>
+                        <a href="https://www.tiktok.com/login?lang=es-419&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des" target="_blank"><img src="../images/icons8-tik-tok-16.png" alt="Tiktok"></a>
+                        <a href="https://x.com/?lang=es"><img src="../images/icons8-x-16.png" alt="X" target="_blank"></a>
                     </div>
                 </div>
                 </div>
