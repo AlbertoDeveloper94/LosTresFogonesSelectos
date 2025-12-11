@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5EFE5;
-    background-size: 30%;
+    background-image:url(/images/bodega.jpg);
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0%;
