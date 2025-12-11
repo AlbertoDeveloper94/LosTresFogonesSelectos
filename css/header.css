@@ -13,12 +13,10 @@ header {
     padding: 15px 20px;
     background-image: url(/images/fondoVerde2.avif);
     background-size: cover;
-    /* La imagen cubre toda la navbar */
     background-repeat: no-repeat;
-    /* No se repite */
     background-position: center;
     border-bottom: 2px solid;
-}
+    
 
 .navbar-brand {
     font-family: 'Cinzel', serif;
@@ -34,6 +32,10 @@ header {
     display: flex;
     gap: 12px;
     color: #B6B5B2;
+    display: flex;           
+    align-items: center;     
+    justify-content: center;
+}
 }
 
 
