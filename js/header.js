@@ -85,21 +85,7 @@ class MyHeader extends HTMLElement {
 
             <!-- Carrito -->
             <a href="#" class="cart-link">
-<<<<<<< HEAD
-              <i class="fas fa-shopping-cart"></i>
-              <span class="cart-count">0</span>
-            </a>
-          </div>
-        </div>
-      </nav>
-=======
-            <i class="fas fa-shopping-cart"></i>
-            <span class="cart-count">0</span>
-            </a>
-        </div>
-        </div>
-    </nav>
->>>>>>> origin/dev
+
     </header>
     `;
 
