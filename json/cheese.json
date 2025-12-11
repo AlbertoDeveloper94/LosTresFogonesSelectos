@@ -41,6 +41,20 @@
             "price": "13,40",
             "denomination": "DOP San Simón da Costa - Catadoiro - Lugo",
             "description": "Queso DOP San Simón Da Costa Bufón Catadoiro"
+        },
+        {
+            "image": "../images/cheese/suerteAmpanera.png",
+            "cheese": "Suerte Ampanera",
+            "price": "15,25",
+            "denomination": "Europa - España - Comunidad de Madrid",
+            "description": "Queso de cabra ecológico Moho Blanco Suerte Ampanera"
+        },
+        {
+            "image": "../images/cheese/reysilo.png",
+            "cheese": "Rey Silo",
+            "price": "16,20",
+            "denomination": "Pravia - Asturias",
+            "description": "Queso de leche cruda de vaca cuajada láctica Rey Silo Blanco"
         }
     ]
 }
