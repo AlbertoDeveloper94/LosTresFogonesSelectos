@@ -4,13 +4,17 @@ html,body{
     padding: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> feat/contacts
 footer{
     width:100%;
     height: auto;
     margin: 0 auto;
-    background-image:url(../images/fotofooter.png);
+    background-image:url(/images/fotofooter.png);
     background-size: cover;
+    background-position: center;
     padding: 1rem;
     color: #F5EFE5;
     font-family: lato, sans-serif;

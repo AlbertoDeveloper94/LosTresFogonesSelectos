@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: "Lato", sans-serif;
 }
@@ -8,6 +9,19 @@ body {
 
 .navbar-brand {
   color: white;
+=======
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  padding: 0.8rem 1rem;
+  background-color:  #6a0f1a !important;
+}
+.navbar-brand {
+  color:  #B6B5B2;
+>>>>>>> feat/contacts
   display: flex;
   align-items: center;
   gap: 10px;
@@ -19,17 +33,21 @@ body {
 .classlogo {
   height: 100px;
   width: auto;
-  background-color: white;
+  background-color:  #B6B5B2;
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
 
 
 feat/aboutUs
+=======
+>>>>>>> feat/contacts
 .navbar-nav .nav-link {
   font-size: 1rem;
   padding: 8px 12px;
   transition: 0.3s;
+<<<<<<< HEAD
   color: #B6B5B2;
 }
 
@@ -41,6 +59,15 @@ feat/aboutUs
 
 .navbar-nav {
 
+=======
+  color:  #B6B5B2;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b8860b; 
+}
+.navbar-nav{
+>>>>>>> feat/contacts
   width: 100%;
 }
 
@@ -51,18 +78,12 @@ feat/aboutUs
   color: white;
 }
 
-.cart-count {
-  background: #b8860b;
-  color: #fff;
-  border-radius: 50%;
-  padding: 1px 6px;
-  font-size: 0.75rem;
-  position: absolute;
-  top: -6px;
-  right: -10px;
-}
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> feat/contacts
 @media (max-width: 992px) {
   .navbar-brand {
     font-size: 1.2rem;
@@ -118,6 +139,7 @@ feat/aboutUs
   .classlogo {
     height: 32px;
   }
+<<<<<<< HEAD
 }
 
 
@@ -131,4 +153,6 @@ feat/aboutUs
 .navbar-nav,
 .navbar-toggler {
   background-color: #6a0f1a !important;
+=======
+>>>>>>> feat/contacts
 }
