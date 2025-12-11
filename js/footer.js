@@ -3,7 +3,7 @@ connectedCallback() {
     this.innerHTML = `
 
 
-    <header>
+    <footer>
         <div class="container text-center">
             <div class="row align-items-center">
                 <div class="col">
@@ -28,7 +28,7 @@ connectedCallback() {
                     </div>
                 </div>
             </div>
-    </header>
+    </footer>
     `;
     }
 }
