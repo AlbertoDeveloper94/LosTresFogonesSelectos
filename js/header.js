@@ -10,7 +10,7 @@ class MyHeader extends HTMLElement {
             <!-- Logo -->
             <a class="navbar-brand" href="#">
             <img
-                src="../Images/logoLosTresFogonesSelectos.png"
+                src="images/logoLosTresFogonesSelectos.png"
                 alt="logo"
                 class="classlogo"
 
