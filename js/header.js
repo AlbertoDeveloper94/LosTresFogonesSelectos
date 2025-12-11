@@ -1,6 +1,8 @@
 class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+
+
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary backgroundHeader">
         <div class="container-fluid">
@@ -37,14 +39,13 @@ class MyHeader extends HTMLElement {
                 <li class="nav-item">
                 <a class="nav-link" href="#">SOBRE NOSOTROS</a>
                 </li>
-              <li class="nav-item">
+                <li class="nav-item">
                 <a class="nav-link" href="#">CONTACTO</a>
                 </li>
             </ul>
 
-            <!-- Carrito -->
             <a href="#" class="cart-link">
-                <i class="fas fa-shopping-cart"></i>
+                <i class="fas-solid fa-shooping-card"></i>
                 <span class="cart-count">0</span>
             </a>
             </div>
@@ -54,8 +55,6 @@ class MyHeader extends HTMLElement {
     `;
     }
 }
-customElements.define("footer-los-tres-fogones-selectos", MyFooter);
+customElements.define("header-los-tres-fogones-selectos", MyHeader);
 
-    < !--Scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="header.js"></script>
+    

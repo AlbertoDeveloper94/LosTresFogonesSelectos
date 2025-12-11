@@ -1,21 +1,17 @@
-/* ------------------------------
-   Fuente general
------------------------------- */
+
 
 body {
   font-family: "Lato", sans-serif;
 }
 
-/* ------------------------------
-   Header y navbar
------------------------------- */
+
 .navbar {
   padding: 0.8rem 1rem;
-   background-color:  #6a0f1a !important;
+  background-color: #6a0f1a !important;
 }
 
 .navbar-brand {
-    color: white;
+  color: white;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -31,21 +27,21 @@ body {
   border-radius: 50%;
 }
 
-/* ------------------------------
-   Nav items
------------------------------- */
+
 .navbar-nav .nav-link {
   font-size: 1rem;
   padding: 8px 12px;
   transition: 0.3s;
-  color: white;
+  color: #B6B5B2;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #b8860b; /* dorado sutil */
+  color: #b8860b;
+  /* dorado sutil */
 }
-.navbar-nav{
-   width: 100%;
+
+.navbar-nav {
+  width: 100%;
 }
 
 /* ------------------------------
@@ -132,3 +128,17 @@ body {
     height: 32px;
   }
 }
+
+
+
+
+
+
+
+
+.navbar-collapse,
+.navbar-nav,
+.navbar-toggler {
+  background-color: #6a0f1a !important;
+}
+
