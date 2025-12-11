@@ -10,6 +10,7 @@ a {
 img {
   display: block;
   object-fit: cover;
+  object-position: center;
   max-width: 100%;
 }
 button {

@@ -22,6 +22,9 @@ h1 {
   color: var(--buttonPrimary);
   font-size: 2.5rem;
 }
+h2 {
+  font-size: 1.8rem;
+}
 h2,
 h3 {
   color: var(--colorTitles);
@@ -109,6 +112,7 @@ header {
   background-color: var(--colorTitles);
   padding: 20px;
   border-radius: 20px;
+  align-items: stretch;
 }
 .gridProducts figure {
   border-radius: 20px;
@@ -116,15 +120,15 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
+  height: 100%;
 }
-.discount{
+.discount {
   width: 50px;
   height: 50px;
   position: absolute;
-  top:5%;
-  left:5%;
+  top: 5%;
+  left: 5%;
   background-color: red;
   padding: 15px;
   border-radius: 50%;
@@ -146,9 +150,12 @@ header {
 }
 
 .productInfo {
-  background-color: wheat;
+ background-color: wheat;
   padding: 10px;
-  flex: 1;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .productInfo > * {
   margin: 8px 0;
@@ -156,8 +163,12 @@ header {
 .productInfo a {
   display: inline-block;
   background-color: var(--buttonSecondary);
-  padding: 5px 10px;
+  padding: 10px 20px;
   border-radius: 20px;
+  border: 2px solid;
+}
+.productInfo a:hover {
+  background-color: #d1ff51;
 }
 .carruselOpinions {
   width: 80%;
@@ -210,9 +221,9 @@ header {
   h1 {
     font-size: 3rem;
   }
-  .gridProducts{
+  .gridProducts {
     gap: 50px;
-    padding:50px;
+    padding: 50px;
   }
 }
 

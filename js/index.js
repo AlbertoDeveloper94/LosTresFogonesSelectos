@@ -102,7 +102,6 @@ async function displayProducts() {
   const highlightContainer = document.getElementById("highlightContainer");
   const offersContainer = document.getElementById("offersContainer");
   const productsData = await fetchHousesJson();
-
   if (productsData) {
     const productCardsHighlight = productsData.highlightProducts
       .map(createHighlightProductCard)

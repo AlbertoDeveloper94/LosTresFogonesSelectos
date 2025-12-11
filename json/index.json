@@ -41,6 +41,20 @@
       "title": "Lata de conservas caviar",
       "price": "52,33",
       "button": "Añadir al carrito"
+    },
+    {
+      "src": "images/quesoCurado.jpg",
+      "alt": "Imagen de un producto de queso Curado.",
+      "title": "Queso Curado",
+      "price": "89,21",
+      "button": "Añadir al carrito"
+    },
+    {
+      "src": "images/embutidos.webp",
+      "alt": "Imagen de un producto de embutidos variados.",
+      "title": "Embutidos",
+      "price": "64,56",
+      "button": "Añadir al carrito"
     }
   ],
 
@@ -60,10 +74,17 @@
       "button": "Añadir al carrito"
     },
     {
-      "src": "images/whiteWineSolstice.jpg",
-      "alt": "Imagen de una botella de vino blanco con marca Solstice.",
-      "title": "Vino blanco Solstice",
-      "price": "120,99",
+      "src": "images/quesoCurado.jpg",
+      "alt": "Imagen de un producto de queso Curado.",
+      "title": "Queso curado",
+      "price": "89,21",
+      "button": "Añadir al carrito"
+    },
+    {
+      "src": "images/embutidos.webp",
+      "alt": "Imagen de un producto de embutidos variados.",
+      "title": "Embutidos",
+      "price": "64,56",
       "button": "Añadir al carrito"
     }
   ]
