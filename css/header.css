@@ -1,20 +1,23 @@
-/* ------------------------------
-   Fuente general
------------------------------- */
+body {
+  font-family: "Lato", sans-serif;
+}
+.navbar {
+  padding: 0.8rem 1rem;
+  background-color: #6a0f1a !important;
+}
 
+.navbar-brand {
+  color: white;
+}
 body {
   font-family: "Lato", sans-serif;
 }
 
-/* ------------------------------
-   Header y navbar
------------------------------- */
 .navbar {
   padding: 0.8rem 1rem;
   background-color: #6a0f1a !important;
   width: 100%;
 }
-
 .navbar-brand {
   color: white;
   display: flex;
@@ -28,18 +31,15 @@ body {
 .classlogo {
   height: 100px;
   width: auto;
-  background-color: white;
+  background-color: #b6b5b2;
   border-radius: 50%;
 }
 
-/* ------------------------------
-   Nav items
------------------------------- */
 .navbar-nav .nav-link {
   font-size: 1rem;
   padding: 8px 12px;
   transition: 0.3s;
-  color: white;
+  color: #b6b5b2;
 }
 
 .navbar-nav .nav-link:hover {
@@ -48,11 +48,9 @@ body {
 .navbar-nav {
   width: 100%;
   justify-content: center;
+  width: 100%;
 }
 
-/* ------------------------------
-   Carrito
------------------------------- */
 .cart-link {
   position: relative;
   font-size: 1.3rem;
@@ -60,22 +58,6 @@ body {
   color: white;
 }
 
-.cart-count {
-  background: #b8860b;
-  color: #fff;
-  border-radius: 50%;
-  padding: 1px 6px;
-  font-size: 0.75rem;
-  position: absolute;
-  top: -6px;
-  right: -10px;
-}
-
-/* ------------------------------
-   RESPONSIVE
------------------------------- */
-
-/* Tablets */
 @media (max-width: 992px) {
   .navbar-brand {
     font-size: 1.2rem;
@@ -94,7 +76,6 @@ body {
   }
 }
 
-/* Móviles */
 @media (max-width: 576px) {
   .navbar {
     padding: 0.6rem 1rem;
@@ -124,7 +105,6 @@ body {
   }
 }
 
-/* Móviles muy pequeños (tipo iPhone SE) */
 @media (max-width: 360px) {
   .navbar-brand {
     font-size: 0.9rem;
@@ -133,4 +113,10 @@ body {
   .classlogo {
     height: 32px;
   }
+}
+
+.navbar-collapse,
+.navbar-nav,
+.navbar-toggler {
+  background-color: #6a0f1a !important;
 }
