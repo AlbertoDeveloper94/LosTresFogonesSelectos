@@ -1,0 +1,129 @@
+/* ------------------------------
+   Fuente general
+------------------------------ */
+
+body {
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/* ------------------------------
+   Header y navbar
+------------------------------ */
+.navbar {
+    padding: 0.8rem 1rem;
+    
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+        background-color: #6A0F1A;
+}
+
+.classlogo {
+    height: 50px;
+    width: auto;
+}
+
+/* ------------------------------
+   Nav items
+------------------------------ */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b8860b; /* dorado sutil */
+}
+
+/* ------------------------------
+   Carrito
+------------------------------ */
+.cart-link {
+    position: relative;
+    font-size: 1.3rem;
+    margin-left: 15px;
+    color: #333;
+}
+
+.cart-count {
+    background: #b8860b;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px 6px;
+    font-size: 0.75rem;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+}
+
+/* ------------------------------
+   RESPONSIVE
+------------------------------ */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .classlogo {
+        height: 45px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .cart-link {
+        margin-top: 10px;
+    }
+}
+
+/* Móviles */
+@media (max-width: 576px) {
+    .navbar {
+        padding: 0.6rem 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        gap: 5px;
+    }
+
+    .classlogo {
+        height: 38px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.95rem;
+        padding: 6px 10px;
+    }
+
+    .cart-link {
+        font-size: 1.2rem;
+    }
+
+    .cart-count {
+        font-size: 0.65rem;
+        padding: 1px 5px;
+    }
+}
+
+/* Móviles muy pequeños (tipo iPhone SE) */
+@media (max-width: 360px) {
+    .navbar-brand {
+        font-size: 0.9rem;
+    }
+
+    .classlogo {
+        height: 32px;
+    }
+}
