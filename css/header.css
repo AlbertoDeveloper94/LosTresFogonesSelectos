@@ -1,21 +1,14 @@
-/* ------------------------------
-   Fuente general
------------------------------- */
 
 body {
   font-family: "Lato", sans-serif;
 }
 
-/* ------------------------------
-   Header y navbar
------------------------------- */
 .navbar {
   padding: 0.8rem 1rem;
-   background-color:  #6a0f1a !important;
+  background-color:  #6a0f1a !important;
 }
-
 .navbar-brand {
-    color: white;
+  color: white;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -31,9 +24,6 @@ body {
   border-radius: 50%;
 }
 
-/* ------------------------------
-   Nav items
------------------------------- */
 .navbar-nav .nav-link {
   font-size: 1rem;
   padding: 8px 12px;
@@ -42,15 +32,12 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #b8860b; /* dorado sutil */
+  color: #b8860b; 
 }
 .navbar-nav{
-   width: 100%;
+  width: 100%;
 }
 
-/* ------------------------------
-   Carrito
------------------------------- */
 .cart-link {
   position: relative;
   font-size: 1.3rem;
@@ -69,11 +56,7 @@ body {
   right: -10px;
 }
 
-/* ------------------------------
-   RESPONSIVE
------------------------------- */
 
-/* Tablets */
 @media (max-width: 992px) {
   .navbar-brand {
     font-size: 1.2rem;
@@ -92,7 +75,6 @@ body {
   }
 }
 
-/* Móviles */
 @media (max-width: 576px) {
   .navbar {
     padding: 0.6rem 1rem;
@@ -122,7 +104,6 @@ body {
   }
 }
 
-/* Móviles muy pequeños (tipo iPhone SE) */
 @media (max-width: 360px) {
   .navbar-brand {
     font-size: 0.9rem;
