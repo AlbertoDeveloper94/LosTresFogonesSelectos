@@ -13,6 +13,8 @@ body {
   background-color: var(--backgroundPrimary);
   font-family: "Lato", sans-serif;
 }
+
+
 h1,
 h2,
 h3 {
@@ -34,18 +36,15 @@ section h2 {
   margin: 30px;
 }
 .wraperHeaderBanner {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+   height: 100vh;
+   display:flex;
+   flex-direction: column;
+
 }
 .wrapperPage {
   width: 85%;
   margin: 0 auto;
   max-width: 1200px;
-}
-header {
-  height: 50px;
-  flex-shrink: 0;
 }
 .banner {
   flex-grow: 1;

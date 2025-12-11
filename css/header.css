@@ -11,11 +11,12 @@ body {
 ------------------------------ */
 .navbar {
   padding: 0.8rem 1rem;
-   background-color:  #6a0f1a !important;
+  background-color: #6a0f1a !important;
+  width: 100%;
 }
 
 .navbar-brand {
-    color: white;
+  color: white;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -44,8 +45,9 @@ body {
 .navbar-nav .nav-link:hover {
   color: #b8860b; /* dorado sutil */
 }
-.navbar-nav{
-   width: 100%;
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
 }
 
 /* ------------------------------

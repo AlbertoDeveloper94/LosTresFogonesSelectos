@@ -3,11 +3,7 @@ html,body{
     margin: 0;
     padding: 0;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-}
+
 footer{
     width:100%;
     height: auto;
@@ -51,6 +47,9 @@ footer .col {
     gap: 0.3rem;
     max-width: 100%;
     overflow: hidden;
+}
+.icons{
+    display: flex;
 }
 footer .col p{
     margin: 0.2rem;
