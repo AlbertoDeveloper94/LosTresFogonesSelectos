@@ -28,12 +28,16 @@ Este proyecto fue realizado por:
 En GitBash:
 git clone  https://github.com/usuario/los-tres-fogones-selectos.git
 
+
 2. Navegar al directorio del proyecto:
 En GitBash :
 cd los-tres-fogones-selectos
 
 3. Abrir el archivo index.html en tu navegador, no se requiere instalacion adicional ya que es un proyecto completamente basado en forntend.
 
+
+## URL ##
+URL https://albertodeveloper94.github.io/LosTresFogonesSelectos/
 
 ## Uso ##
 
@@ -42,6 +46,6 @@ Los productos son fáciles de identificar gracias a sus imágenes, y sus caracte
 
 ## Presentacion ##
 
-## URL ##
 
+https://www.canva.com/design/DAG7HFgePgI/Qr4N2Ox048Zn_zcMPSlLdg/view?utm_content=DAG7HFgePgI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6cc95175c6
 
